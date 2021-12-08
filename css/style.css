@@ -1,0 +1,20 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a,
+ul,
+li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container{
+    max-width: 1290px;
+    width: 100%;
+    margin: 0 auto;
+}
