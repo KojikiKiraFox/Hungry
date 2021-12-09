@@ -1,70 +1,65 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Hungry</title>
+    <title>Hunger</title>
+    <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-
-
 <body>
-    <div class="bgi">
-        <header class="header">
-            <div class="container">
-                <div class="header__menu-items">
-                    <div class="header__menu-item">
-                        <nav class="header-nav">
-                            <ul class="menu-items">
-                                <li class="menu-item"><a href="#" class="header__menu-link">HOME</a></li>
-                                <li class="menu-item"><a href="#" class="header__menu-link">ABOUT</a></li>
-                                <li class="menu-item"><a href="#" class="header__menu-link">TEAM</a></li>
-                                <li class="menu-item"><a href="#" class="header__menu-link">BOOKING</a></li>
-                            </ul>
-                        </nav>
-                        <div class="header__menu-img">
-                            <a href="/" class="logo-link">
-                                <img src="img/logo.svg" alt="Logo" class="logo logo-header">
-                            </a>
-                        </div>
-                        <nav class="header-nav">
-                            <ul class="menu-items">
-                                <li class="menu-item"><a href="#" class="header__menu-link">HOME</a></li>
-                                <li class="menu-item"><a href="#" class="header__menu-link">ABOUT</a></li>
-                                <li class="menu-item"><a href="#" class="header__menu-link">TEAM</a></li>
-                                <li class="menu-item"><a href="#" class="header__menu-link">BOOKING</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
+    <header class="header">
+        <nav class="container navigation">
+            <a href="#" class="nav-item">HOME</a>
+            <a href="#" class="nav-item">ABOUT</a>
+            <a href="#" class="nav-item">TEAM</a>
+            <a href="#" class="nav-item">BOOKING</a>
+            <a href="index.html" class="nav-logo">
+                <img src="img/logo.svg" alt="logo" class="logo_img">
+            </a>
+            <a href="#" class="nav-item">MENU</a>
+            <a href="#" class="nav-item">GALERIE</a>
+            <a href="#" class="nav-item">EVENTS</a>
+            <a href="#" class="nav-item">CONTACT</a>
+        </nav>
+    </header>
+    <section class="section--promo">
+        <div class="container block block_promo">
+            <div class="block_text">
+                <p class="promo-text">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</p>
             </div>
-        </header>
-        <!-- /.header -->
-
-        <section class="hero">
-            <div class="container">
-                <div class="hero-items">
-                    <div class="time-work">
-                        <p class="hero__time-work">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</p>
-                    </div>
-                    <div class="hero-title">
-                        <p class="hero__title-top">RESTAURANT</p>
-                        <h1 class="hero-h1">hungry people</h1>
-                        <div class="hero__title-btn">
-                            <a href="#" class="btn btn-zhelt">BOOK TABLE</a>
-                            <a href="#" class="btn btn-fon">EXPLORE</a>
-                        </div>
-                    </div>
-                    <div class="hero__button">
-                        <a href="#" class=" btn-social"><img src="img/logo/facebook.svg" alt="facebook" class="social__link-img"></a>
-                        <a href="#" class=" btn-social"><img src="img/logo/twitter.svg" alt="twitter" class="social__link-img"></a>
-                        <a href="#" class=" btn-social"><img src="img/logo/instagram.svg" alt="instagram" class="social__link-img"></a>
-                    </div>
+            <div class="promo_main">
+                <h3 class="sub_title">RESTAURANT</h3>
+                <h1 class="promo_title title">hungry people</h1>
+                <div class="buttons">
+                    <button class="button button_promo button--primary">BOOK TABLE</button>
+                    <button class="button button_promo button--secondary">EXPLORE</button>
                 </div>
+                <a href="#" class="link--down"></a>
             </div>
-        </section>
-    </div>      
-    <!-- /.hero -->
+            <div class="social_buttons">
+                <a href="https://facebook.com" class="social-link face"></a>
+                <a href="https://twitter.com" class="social-link twit"></a>
+                <a href="https://instagram.com" class="social-link inst"></a>
+            </div>
+        </div>
+    </section>
+    <section class="section--about">
+        <div class="container block">
+            <div class="section_text">
+                <h2 class="section--title title">ABOUT US</h2>
+                <h3 class="block--subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna</h3>
+                <p class="block--text_desc">
+                    Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+            </div>
+            <div class="block--img">
+                <img src="./img/about-img.jpg" alt="imegeshka">
+            </div>
+        </div>
+    </section>
 </body>
 </html>
